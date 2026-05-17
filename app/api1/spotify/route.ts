@@ -1,6 +1,9 @@
 export async function GET(req: Request) {
   const spotifyUrl =
-    "https://open.spotify.com/intl-it/album/42TFqlT3IYEIdIcfIa7w7K";
+
+    "https://open.spotify.com/album/42TFqlT3IYEIdIcfIa7w7K";
+
+
 
   const ip =
     req.headers.get("x-forwarded-for") || "unknown";
